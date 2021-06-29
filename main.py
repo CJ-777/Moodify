@@ -121,7 +121,7 @@ def click_event_main(event, x, y, flags, params):
             cv2.destroyWindow('Main')
             WebCam()
         if params[1][0] < x < params[1][2] and params[1][1] < y < params[1][3]:
-            print('2')
+            webbrowser.open('https://github.com/CJ-777/Moodify/tree/master', new=2)
         if params[2][0] < x < params[2][2] and params[2][1] < y < params[2][3]:
             cv2.destroyAllWindows()
 
